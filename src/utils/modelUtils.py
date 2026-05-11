@@ -36,8 +36,7 @@ def returnTemplate():
     Returns:
     - str: The template string.
     """
-    template = """
-Given a script file in {language}, generate its documentation for each function. For each function in the script, document its name, arguments, return values, and a brief explanation of its logic.
+    template = """Given a script file in {language}, generate its documentation for each function. For each function in the script, document its name, arguments, return values, and a brief explanation of its logic.
 
 Strictly use the following format for each function:
 
@@ -60,8 +59,7 @@ Strictly use the following format for each function:
 
 Ensure that code within comments is not parsed and documented. Generate nothing else than what is asked.
 
-{code}
-    """
+{code}"""
 
     return template
 
