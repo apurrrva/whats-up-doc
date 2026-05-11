@@ -66,12 +66,10 @@ def get_llama_response(prompt: str) -> None:
 
 language = "Python"
 
-prompt = f"""
-Here's my function in {language}:
+prompt = f"""Here's my function in {language}:
 
 {testFunction}
 
-Given the definition of a function in any programming language (particularly Python and C++), please generate it's stand-alone documentation. I want it complete with fields like function name, function arguments and return values as well as a detailed explanation of how the function logic works line-by-line.  Make it concise and informative to put the documentation into a project documentation file.
-"""
+Given the definition of a function in any programming language (particularly Python and C++), please generate it's stand-alone documentation. I want it complete with fields like function name, function arguments and return values as well as a detailed explanation of how the function logic works line-by-line.  Make it concise and informative to put the documentation into a project documentation file."""
 
 promptModel(prompt)
