@@ -11,11 +11,9 @@ def sum():
     return sum
 """
 
-prompt = f"""
-Write the following function's documentation in markdown format.
+prompt = f"""Write the following function's documentation in markdown format.
 
-{function}
-"""
+{function}"""
 
 output = llm.invoke(prompt)
 
