@@ -13,9 +13,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, use_fast=True)
 prompt = "Tell me about AI"
 prompt_template=f'''[INST] Write code to solve the following coding problem that obeys the constraints and passes the example test cases. Please wrap your code answer using ```:
 {prompt}
-[/INST]
-
-'''
+[/INST]'''
 
 print("\n\n*** Generate:")
 
