@@ -13,7 +13,6 @@ function_code = input("Please enter the Python function code:")
 # Specify prompt template
 prompt_template = f"""```python
 {function_code}
-Please explain the purpose of this function, what it does, and how it works.
-"""
+Please explain the purpose of this function, what it does, and how it works."""
 
 model = load_model("model_id")
