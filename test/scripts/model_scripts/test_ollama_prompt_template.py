@@ -11,10 +11,8 @@ fn = """def sum():
     return sum
 """
 
-template = """
-Write the documentation for this function in markdown:
-{function}
-"""
+template = """Write the documentation for this function in markdown:
+{function}"""
 
 prompt = PromptTemplate(input_variables=['function'], template=template)
 
